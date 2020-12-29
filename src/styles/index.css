@@ -1,0 +1,127 @@
+/* * Sessão de serviços */
+
+.services-container{
+  max-width: 1200px;
+  padding:30px 10px;  
+  padding-bottom: 0;
+}
+
+.service-box{
+  width:100%;
+  position:relative;
+  clear: both;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.service-box:last{
+  margin-bottom:0;
+}
+
+.service-title{
+  width:20%;
+  height: 150px;
+  background-color:#ddd;
+  float: left;
+  text-align: center;
+  line-height: 150px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-weight: bolder;
+}
+
+.service-title p{
+  padding-top:35px;
+  color:rgb(255, 254, 254);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.service-description{
+  width:80%;
+  float: left;
+  padding: 15px;
+}
+
+.service-description h3{
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+
+}
+
+.service-description p{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+#gerenciamento-title {
+  color:#2364aa;
+
+}
+
+#dev-title {
+  color:#3da5d9;
+  
+}
+#design-title {
+  color:#73bfb8;
+  
+}
+
+#gerenciamento-box {
+  background-color:#2364aa;
+
+}
+
+#dev-box {
+  background-color:#3da5d9;
+  
+}
+#design-box {
+  background-color:#73bfb8;
+  
+}
+
+/* * Sobre a empresa */
+
+.footer-container {
+  background-image: url('../assets/rodape.jpg');
+  background-position: center;
+  
+  opacity: 2.9;
+}
+
+.about-container {
+  max-width: 1200px;
+  padding: 30px 10%;
+  position: relative;
+  clear: both;
+}
+
+.about-card {
+  float: left;
+  width: 30%;
+  padding: 30px;
+  text-align: center;
+  background-color:#ffff;
+}
+
+.middle-card {
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.about-card i{
+  font-size: 50px;
+  color:#AAA;
+}
+
+.about-card p {
+  margin-top: 50px;
+  font-size: 15px;
+  line-height: 22px;
+  color:#999;
+  text-align: left;
+}
